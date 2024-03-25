@@ -75,7 +75,7 @@ function unpack(network) {
   }
   return sourceNumber;
 }
-export class AesCrypt {
+class AesCrypt {
   key;
   constructor(k) {
     this.key = k + "=";
@@ -166,7 +166,7 @@ export class AesCrypt {
   }
 }
 
-export class BizMsgCrypt {
+class BizMsgCrypt {
   token;
   encodingAesKey;
   appId;
